@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Analyse</title>
+</head>
+
+<body>
+
+    <section class="analysis">
+        <div class="headline">
+            <h3>Analysis</h3>
+        </div>
+        <div class="graph">
+            <div class="inner">
+                <div class="data" id="analysis"></div>
+                <img src="assets/analysis-01.png" id="Graph">
+            </div>
+        </div>
+    </section>
+
+    <div class="From-Controller">
+        <div class="controller">
+            <div>
+                <label>Top:</label>
+            </div>
+            <input type="range" value="100" id="top">
+        </div>
+        <div class="controller">
+            <div>
+                <label>Top-Right:</label>
+            </div>
+            <input type="range" value="100" id="topRight">
+        </div>
+        <div class="controller">
+            <div>
+                <label>Bottom-Right:</label>
+            </div>
+            <input type="range" value="100" id="bottomRight">
+        </div>
+        <div class="controller">
+            <div>
+                <label>Bottom:</label>
+            </div>
+            <input type="range" value="100" id="bottom">
+        </div>
+        <div class="controller">
+            <div>
+                <label>Bottom-left:</label>
+            </div>
+            <input type="range" value="100" id="bottomLeft">
+        </div>
+        <div class="controller">
+            <div>
+                <label>Top-Left:</label>
+            </div>
+            <input type="range" value="100" id="topLeft">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
